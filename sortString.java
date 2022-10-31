@@ -22,6 +22,6 @@ public class sortString {
 
 
         sortString sr = new sortString();
-        System.out.println(sr.sort("edcab"));
+        System.out.println(sr.sort("edcadqwdwb"));
     }
 }
