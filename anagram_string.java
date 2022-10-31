@@ -27,6 +27,6 @@ class GFG {
       }
 	    n--;
 	}
-		//code
+
 	}
 }
