@@ -20,10 +20,8 @@ public class Smallest {
             for (int j = i + 1; j < arr.length; j++) {
                 min = Math.min(min, arr[j]);
             }
-            if (min < arr[i])
-                outArr[i] = min;
-            else
-                outArr[i] = -1;
+            if (min < arr[i]) outArr[i] = min;
+            else outArr[i] = -1;
         }
 
 
