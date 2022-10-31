@@ -15,7 +15,7 @@ class Solution{
         while(in.hasNext()){
             String s = in.next();
             if(myMap.get(s) == null)
-                System.out.println("Not not found");
+                System.out.println("Not found");
             else {
                 System.out.println(s + "=" + myMap.get(s));
             }
