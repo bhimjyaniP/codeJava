@@ -28,7 +28,7 @@ public class PairSum {
         myList.add(4);
         myList.add(7);
 
-        int number = 14;
+        int number = 24;
 
         boolean ans = check(myList,number);
         System.out.println("Answer is "+ans);
