@@ -63,16 +63,16 @@ public class DfsTree {
         dfsTree.root.left.left = new Node(4);
         dfsTree.root.left.right = new Node(5);
 
-        System.out.println("Inorder Traversal ");;
+        System.out.println("Inorder Traversal : ");;
         dfsTree.printInorder(dfsTree.root);
 
 
-        System.out.println("Preorder Traversal ");;
+        System.out.println("Preorder Traversal : ");;
         dfsTree.printPreorder(dfsTree.root);
 
 
 
-        System.out.println("Postorder Traversal ");;
+        System.out.println("Postorder Traversal : ");;
         dfsTree.printPostorder(dfsTree.root);
 
     }
