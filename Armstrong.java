@@ -10,7 +10,7 @@ class ArmstrongExample{
     c=c+(a*a*a);  
     }  
     if(temp==c)  
-    System.out.println("armstrong number");   
+    System.out.println("Armstrong number");   
     else  
         System.out.println("Not armstrong number");   
    }  
